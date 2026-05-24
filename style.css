@@ -75,8 +75,13 @@ input,textarea,select{font-family:inherit;}
   .field-input{font-size:13px;padding:8px 10px;}
 }
 @media(max-width:520px){
-  .nav-btn{min-width:42px;}
-  .nav-network .lbl,
-  .nav-jobs .lbl{display:none;}
+  nav{width:100%;justify-content:space-between;gap:0;}
+  .nav-btn{min-width:0;flex:1 1 0%;padding:8px 0;height:auto;}
+  .nav-home{order:1;}
+  .nav-notifs{order:2;}
+  .nav-network{order:3;}
+  .nav-jobs{order:4;}
+  .nav-profile{order:5;}
+  .nav-btn .lbl{display:none;}
 }
 

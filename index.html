@@ -18,13 +18,13 @@
     <div class="search-box"><span>🔍</span><input type="text" placeholder="Search"/></div>
     <div style="flex:1"></div>
     <nav style="display:flex;align-items:stretch;height:100%">
-      <button class="nav-btn active" onclick="switchTab('feed',this)"><span style="font-size:18px">🏠</span><span class="lbl">Home</span></button>
+      <button class="nav-btn nav-home active" onclick="switchTab('feed',this)"><span style="font-size:18px">🏠</span><span class="lbl">Home</span></button>
       <button class="nav-btn nav-network" onclick="switchTab('network',this)"><span style="font-size:18px">👥</span><span class="lbl">My Network</span></button>
       <button class="nav-btn nav-jobs" onclick="switchTab('jobs',this)"><span style="font-size:18px">💼</span><span class="lbl">Jobs</span></button>
-      <button class="nav-btn" onclick="switchTab('notifs',this)">
+      <button class="nav-btn nav-notifs" onclick="switchTab('notifs',this)">
         <span style="font-size:18px;position:relative">🔔<span id="notif-badge" style="position:absolute;top:-4px;right:-6px;background:#e7301a;color:#fff;border-radius:12px;font-size:10px;font-weight:700;padding:1px 4px;line-height:1.4">2</span></span>
         <span class="lbl">Notifications</span></button>
-      <button class="nav-btn" onclick="switchTab('profile',this)"><span style="font-size:18px">👤</span><span class="lbl">Me</span></button>
+      <button class="nav-btn nav-profile" onclick="switchTab('profile',this)"><span style="font-size:18px">👤</span><span class="lbl">Me</span></button>
     </nav>
   </div>
 </div>
