@@ -1,11 +1,11 @@
 const ME={
   name:'Santhosh Kumar',initials:'SK',
-  title:'B.E Student | Aspiring Software Engineer',
+  title:'B.Tech AI & Data Science Student | Aspiring Software Engineer',
   location:'Tamil Nadu, India',
   college:'Adhi College of Engineering and Technology',
-  degree:'B.E. Computer Science & Engineering',
+  degree:'B.Tech Artificial Intelligence and Data Science',
   period:'2022 – 2026',connections:87,color:'#7152b3',
-  about:'Passionate B.E. Computer Science student at Adhi College of Engineering and Technology, Tamil Nadu. Strongly interested in software development, web technologies, and problem solving. Actively looking for internship opportunities.',
+  about:'Passionate B.Tech Artificial Intelligence and Data Science student at Adhi College of Engineering and Technology, Tamil Nadu. Strongly interested in software development, web technologies, and problem solving. Actively looking for internship opportunities.',
   skills:['Python','Java','HTML & CSS','JavaScript','React','Data Structures'],
   openTo:['Software Engineer Internship','Full Stack Developer Intern','Web Developer'],
   projects:[
