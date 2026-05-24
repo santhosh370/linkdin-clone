@@ -76,6 +76,7 @@ input,textarea,select{font-family:inherit;}
 }
 @media(max-width:520px){
   .nav-btn{min-width:42px;}
-  .nav-btn .lbl{display:none;}
+  .nav-network .lbl,
+  .nav-jobs .lbl{display:none;}
 }
 
